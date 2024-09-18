@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Current File",
+      "type": "debugpy",
+      "request": "launch",
+      "python": "/home/yamagami/.cache/pypoetry/virtualenvs/shredderbladeinspection-o4Sf-dhU-py3.11/bin/python",
+      // "env": {"CUDA_VISIBLE_DEVICES": "0"},
+      "module": "src.timm.train",
+      "console": "integratedTerminal",
+      "args": [
+        // "--eval_only",
+        // "--eval_ckpt_path",
+        // "/home/yamagami/works/ishida/ShredderBladeInspection/src/timm/results/swin_large_patch4_window7_224/Top/20240905_124432--Top--ep10_bs32_lr0.0001/checkpoints/epoch=9-step=20.ckpt"
+      ],
+      "cwd": "/home/yamagami/works/ishida/ShredderBladeInspection/",
+      "justMyCode": false
+    }
+  ]
+}
