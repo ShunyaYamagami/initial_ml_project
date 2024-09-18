@@ -12,6 +12,11 @@ torchvision = "^0.19.1"
 torchaudio = "^2.4.1"
 numpy = "^1.26.4"
 
+[tool.poetry.group.dev.dependencies]
+notebook = "^7.2.1"
+nbstripout = "^0.7.1"
+gdown = "^5.2.0"
+
 [tool.ruff]
 line-length = 130
 target-version = "py311"
